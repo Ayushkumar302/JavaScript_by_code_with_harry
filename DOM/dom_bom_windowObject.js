@@ -21,3 +21,6 @@ console.log(window);
 console.log(document);
 console.log(document.body);
 // document.body.style.background="teal"
+console.log(document.body.firstChild)
+console.log(document.body.lastChild);
+console.log(document.body.childNodes);
