@@ -7,6 +7,9 @@
 // 5. querySelector()-  returns the first element that matches a specified CSS selector(s) in the document.
 // 6. querySelectorAll()- returns a static (not live) collection of elements that matches a specified CSS selector(s) in the document.
 
+let brandName = document.getElementsByClassName("navbar-brand")[0]
+brandName.style.color = "red"
+
 let cTitle = document.getElementById("firstCardTitle") // returns a collection of elements with a specified class name.
 cTitle.style.color="red"
 
