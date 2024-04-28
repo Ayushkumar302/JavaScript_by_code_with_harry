@@ -1,0 +1,67 @@
+/* Common styles for both desktop and mobile */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1d3b44, #fbe9d0); /* Custom gradient background */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    color: #fbe9d0; /* Light beige text color */
+    font-size: 24px;
+    padding: 20px;
+}
+
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    color: #fbe9d0; /* Light beige text color */
+    text-align: center;
+    position: relative;
+}
+
+.time {
+    font-size: 80px;
+    padding: 5px 0;
+    color: #E64833; /* Reddish-orange color for time display */
+    text-shadow: 0 0 20px rgba(230, 72, 51, 0.8); /* Soft shadow */
+    letter-spacing: 0.05em;
+}
+
+.date {
+    font-size: 24px;
+    color: #90aead; /* Light teal color for date */
+    letter-spacing: 0.1em;
+}
+
+.text {
+    font-size: 12px;
+    color: #874f41; /* Dark brown color for additional text */
+    letter-spacing: 0.1em;
+    padding-top: 20px;
+}
+
+/* Media query for smaller screens (e.g., mobile phones) */
+@media only screen and (max-width: 600px) {
+    .time {
+        font-size: 48px; /* Adjust font size for smaller screens */
+    }
+
+    .date {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+    .text {
+        font-size: 10px; /* Adjust font size for smaller screens */
+    }
+
+    .header {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
