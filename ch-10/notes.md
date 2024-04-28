@@ -1,4 +1,4 @@
-
+notes for chapter 10
 **fetch API** 
 The Fetch API is a modern JavaScript interface for making network requests (e.g., HTTP requests) in the browser or Node.js environments.
 - It uses promises to handle asynchronous operations, providing a cleaner alternative to traditional XMLHttpRequest (XHR) for fetching resources.
