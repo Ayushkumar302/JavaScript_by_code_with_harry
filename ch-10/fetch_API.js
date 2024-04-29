@@ -15,4 +15,6 @@ p.then((response)=>{
     return response.json()
 }).then((data)=>{
     console.log(data)
+    // let a = document.getElementById("weatherCast")
+    // a.innerHTML=`<h1> ${data.temperature}</h1>`
 })
