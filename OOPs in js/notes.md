@@ -56,4 +56,19 @@ To establish inheritance between objects, you can set one object's prototype to 
 **Code Reusability**: Inheritance allows subclasses to reuse code from the superclass, reducing redundancy and promoting cleaner, more modular code.
 **Hierarchy:** Inheritance creates a hierarchical relationship among classes, where subclasses specialize or extend functionality of the superclass.
 **Polymorphism:**Inheritance is a key concept in achieving polymorphism, where objects of different classes can be treated as objects of a common superclass.
-E
+
+
+
+
+
+**Method overriding** is a concept in object-oriented programming where a subclass provides a specific implementation of a method that is already defined in its superclass. This allows the subclass to customize or extend the behavior of the inherited method.
+
+**In a nutshell:**
+
+Superclass (Base Class): Defines a method.
+Subclass (Derived Class): Provides a new implementation of the method with the same name and parameters as defined in the superclass.
+**Key points about method overriding:**
+
+The method in the subclass must have the same name, return type, and parameters (method signature) as the method in the superclass.
+The purpose of method overriding is to provide a more specialized implementation in the subclass.
+Method overriding is used to achieve polymorphism, where different objects can be treated as objects of a common superclass but exhibit different behaviors based on their specific implementations
