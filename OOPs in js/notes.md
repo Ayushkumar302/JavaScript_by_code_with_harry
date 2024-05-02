@@ -72,3 +72,15 @@ Subclass (Derived Class): Provides a new implementation of the method with the s
 The method in the subclass must have the same name, return type, and parameters (method signature) as the method in the superclass.
 The purpose of method overriding is to provide a more specialized implementation in the subclass.
 Method overriding is used to achieve polymorphism, where different objects can be treated as objects of a common superclass but exhibit different behaviors based on their specific implementations
+
+
+
+
+***A static method in object-oriented programming*** (OOP) is a method that belongs to the class itself rather than to instances (objects) of the class. This means you can call a static method directly on the class without needing to create an instance of the class.
+
+***Key characteristics of static methods:***
+
+Belongs to the Class: Static methods are associated with the class itself, not with instances of the class. They can be called using the class name.
+No Access to Instance Variables: Static methods cannot access instance variables or instance methods directly because they do not operate on a specific instance of the class.
+Accessed via Class Name: You invoke a static method by using the class name followed by the method name, e.g., ClassName.staticMethod().
+Common Utility or Helper Functions: Static methods are often used for utility functions that do not require access to instance-specific data.
