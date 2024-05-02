@@ -43,3 +43,17 @@ You can add properties and methods to the prototype of a constructor function, a
 **Prototype-based Inheritance:**
 In JavaScript, objects inherit properties and methods from their prototype. This forms the basis of prototype-based inheritance, where objects can inherit from other objects directly.
 To establish inheritance between objects, you can set one object's prototype to another using Object.create() or by directly manipulating the prototype chain.
+
+
+
+**Inheritance in programming** refers to a mechanism where a new class (known as a subclass or derived class) is based on an existing class (known as a superclass or base class). The subclass inherits attributes and methods from the superclass, allowing for code reuse and the establishment of a hierarchical relationship between classes.
+
+**Here's a concise overview of inheritance:**
+
+**Superclass (Base Class):** The existing class that is used as the basis for inheritance. It defines common attributes and behaviors that can be shared by multiple subclasses.
+**Subclass (Derived Class):** The new class that inherits attributes and methods from the superclass. It can also have its own additional attributes and methods.
+**Benefits of Inheritance:**
+**Code Reusability**: Inheritance allows subclasses to reuse code from the superclass, reducing redundancy and promoting cleaner, more modular code.
+**Hierarchy:** Inheritance creates a hierarchical relationship among classes, where subclasses specialize or extend functionality of the superclass.
+**Polymorphism:**Inheritance is a key concept in achieving polymorphism, where objects of different classes can be treated as objects of a common superclass.
+E
