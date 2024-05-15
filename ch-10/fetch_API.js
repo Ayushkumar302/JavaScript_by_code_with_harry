@@ -17,4 +17,7 @@ p.then((response)=>{
     console.log(data)
     // let a = document.getElementById("weatherCast")
     // a.innerHTML=`<h1> ${data.temperature}</h1>`
-})
+}).catch((error)=>{
+        console.log(error)
+    }
+)
